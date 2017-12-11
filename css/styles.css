@@ -17,13 +17,72 @@ header{background-image: url(../img/backgrounds/landing.jpg);
         padding: 0px;
         overflow: hidden;}
 
+.happyhour{background-color: #dcdcdc;
+        padding-left: 18%;
+        padding-top: 5%;
+        padding-bottom: 10%;}
+.happyhour:hover{background-color: #a9a9a9;
+        bottom: 0;
+        opacity: 0.9;
+        color: black;
+        overflow: hidden;
+        transition: .5s ease;}
 
+.partytime{color: #ffffff;
+        background-color: #F15A29;
+        padding-left: 18%;
+        padding-top: 10%;
+        padding-bottom: 10%}
+.partytime:hover{background-color: #a9a9a9;
+        bottom: 0;
+        opacity: 0.9;
+        color: black;
+        overflow: hidden;
+        transition: .5s ease;}
 
-.breakfast{float: right;
-          margin: 0px;
-          padding: 0px;
-          border: 0px;
+.breako{padding-top: 20%;
+        padding-bottom: 30%;
+        text-align: center;
+        color: #ffffff;}
+
+.breakfast{background-image: url(../img/foodtop/breakfast.jpg);
+        margin: 0px;
+        padding: 0px;
         }
+
+.breakfast:hover{background-color: #a9a9a9;
+        bottom: 0;
+        opacity: 0.9;
+        color: black;
+        overflow: hidden;
+        transition: .5s ease;}
+
+.lunch{background-image: url(../img/foodtop/lunch.jpg);
+        margin: 0px;
+        padding: 0px;}
+
+.lunch:hover{background-color: #a9a9a9;
+        bottom: 0;
+        opacity: 0.9;
+        color: black;
+        overflow: hidden;
+        transition: .5s ease;}
+
+.dinner{background-image: url(../img/foodtop/dinner.jpg);
+        margin: 0px;
+        padding: 0px;}
+
+.dinner:hover{background-color: #a9a9a9;
+        bottom: 0;
+        opacity: 0.9;
+        color: black;
+        overflow: hidden;
+        transition: .5s ease;}
+
+.col-lg-3{margin: 0px;
+        padding: 0px;}
+ 
+        /* words and pics at the side */
 .cakepics{margin-left: 2%;
         margin-right: 5%;
         padding-top: 5%;
@@ -43,21 +102,43 @@ header{background-image: url(../img/backgrounds/landing.jpg);
 .jumbotron{background-color: #ffffff;}
 .fastfood{ padding-right: 15%;}
 .drinks{padding-left: 15%;}
-
-/* words and photos part */
-
-/* .drinksside{ padding: 0px;
-             margin: 0px;
-
-} */
+.btn{border-color: #F15A29;}
+.btn-lg{color: #F15A29;}
+.fa-long-arrow-right{color: #F15A29;}
 
 
 
-.floatingfood{padding: 15%;
-        }
+/* floating food stuff */
+.floatingfood{background-image: url(../img/backgrounds/foodsBg.jpg);
+       padding-top:10%;
+        padding-bottom: 10%;
+        padding-left: 8%;
+        padding-right: 8%;}
+.onesy{background-color: #ffffff;}
+.junkie{padding-top: 5%;}
+.chickenburger{padding-right: 0px;
+                margin-right:0px;}
 
-.junk{float: right;
-        padding: 10%;}
+.chicken {position: relative;
+                top: 3px;
+        left:15px;}
+
+.chickenpizza{margin-left: 4%;}
+
+.beefburger{margin-left:0px;
+        padding-left: 0px;}
+.arrowright{padding-top: 6%;}
+.nav-link{color: #000000;
+        font-size: 25px;}
+.navsy{background-color: #dcdcdc;
+        border-style: solid;
+        border-width:thin;
+        border-top: 0px;
+        border-color: #a9a9a9;}
+
+
+
+
 
 /* customer reviews part */
 .customerreview{width:90%;
@@ -69,6 +150,29 @@ header{background-image: url(../img/backgrounds/landing.jpg);
         padding-bottom: 2%;
         padding-left: 2%;
         box-shadow: 1px 2px 3px 3px  #dcdcdc; }
+.happycustomers{border-style: solid;
+                border-top: 0px;
+               border-bottom: 0px;
+        border-left: 0px;
+        border-color: #dcdcdc;
+        border-width:thin;}
+
+.ourhappy{text-align: center;
+        color: #F15A29;}
+.george{padding-left: 40%;}
+.great{padding-left: 20%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;}
+.also{padding-left: 26%;
+        padding-top: 0px;}
+.weare{padding-bottom: 0px;
+        margin-bottom: 0px;}
+
+.customerpics{padding-left: 40%;}
+
+.fa-angle-right{color: #F15A29;}
+
+.fa-angle-left{color: #F15A29;}
 
 /* SUBSCRIBE PART!!!!! */
 .subscribe{background-image: url(../img/backgrounds/subscribe.jpg)}
@@ -91,4 +195,9 @@ footer{background-color: #F15A29;
         padding-right: 9%;}
         
 .restmenu{padding-top: 3%;
+        padding-left: 5%;
         padding-right: 13%;}
+
+.burgerlogo{font-size: 50px;
+        padding-right: 2%;}
+.menurest{font-size: 15px;}

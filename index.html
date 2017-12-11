@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- linkt to custom stylesheet -->
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <!-- link to ionicons -->
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- link to font awesome icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
    <!-- heading part -->
@@ -35,20 +35,38 @@
       <!-- ////hapyhour part -->
     
       <div class="strip">
-        
-             <div class=" breakfast">
-                    <img src="img/foodtop/breakfast.jpg"> 
-             </div> 
+        <div class="row">
 
-             <div class=" breakfast">      
-                    <img src="img/foodtop/lunch.jpg"> 
+                <div class="col-lg-3">
+                        <div class="row happyhour">
+                            <h3>Happy Hour</h3>  
+                        </div> 
+                        <div class="row partytime">
+                                <h3>Party Time</h3>  
+                            </div> 
+                </div>
+           
+
+            <div class="col-lg-3">
+             <div class="breakfast">
+                <h4 class="breako">Breakfast</h4>   
+             </div> 
             </div>
-             
-             <div class=" breakfast">
-                    <img src="img/foodtop/dinner.jpg">
-             </div>  
+
+
+             <div class="col-lg-3">
+             <div class="lunch">      
+                <h4 class="breako">Lunch</h4>  
+            </div>
+            </div> 
+
+            <div class="col-lg-3">
+             <div class="dinner">
+                <h4 class="breako">Dinner</h4>   
+             </div>
+            </div>  
        </div>
-    
+    </div>
       
  <!-- text and photo part -->
        <div class="jumbotron">
@@ -70,7 +88,7 @@
                          etur adipisicing elit. Doloremque architecto est suscipit, dolor amet
                           dolore quas expedita quisquam officiis soluta blanditiis ipsam quae
                           rat ad veniam sint enim dolorum quam obcaecati!</p>
-                          <button type="button" class="btn btn-secondary btn-lg">View Gallery</button>
+                          <button type="button" class="btn btn-secondary btn-lg">View Gallery<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 
                         
                     </div>
@@ -91,7 +109,7 @@
                                  etur adipisicing elit. Doloremque architecto est suscipit, dolor amet
                                   dolore quas expedita quisquam officiis soluta blanditiis ipsam quae
                                   rat ad veniam sint enim dolorum quam obcaecati!</p>
-                            <button type="button" class="btn btn-secondary btn-lg">View Gallery</button>
+                            <button type="button" class="btn btn-secondary btn-lg">View Gallery<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
         
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -102,55 +120,54 @@
                         </div>
                 </div>
        </div>
+
+
 <!-- some background part -->
-
-
     <div class="floatingfood">
-        <div class="row">
-            <div class="col-lg-3 col-md-3 ">
-                <h4>Fast Food</h4>
 
-            </div>
+        <div class="container onesy">
+            <ul class="nav nav-tabs nav-fill">
+                <li class="nav-item">
+                      <a class="nav-link active" href="#">Fast Food</a>
+                </li>
 
-            <div class="col-lg-3 col-md-3 ">
-                <h4>Drinks</h4>
-    
-            </div>
+                <li class="nav-item navsy">
+                      <a class="nav-link" href="#">Drinks</a>
+                </li>
 
-            <div class="col-lg-3 col-md-3 ">
-                <h4>Chicken</h4>
-        
-            </div>
+                <li class="nav-item navsy">
+                      <a class="nav-link" href="#">Chicken</a>
+                </li>
 
-            <div class="col-lg-3 col-md-3 ">
-                <h4>Rice</h4>
-            
-                </div>
+                <li class="nav-item navsy">
+                      <a class="nav-link" href="#">Rice</a>
+                </li>
+            </ul>
+
+            <div class="row junkie">
+                    
+                    <div class="col-lg-4 chickenburger ">
+                        <i class="fa fa-angle-left" aria-hidden="true" style="font-size:30px;"></i>
+                        <img src="img/fastfood/chickenBurger.jpg">
+                        <h5 class="chicken">Chicken Burger</h5>
+                    </div>
+                
+                    <div class="col-lg-3 beefburger">
+                        <img  src="img/fastfood/beefBurger.jpg">
+                        <h5>Beef Burger</h5>
+                    </div>
+                
+                    <div class="col-lg-3 chickenpizza ">
+                        <img  src="img/fastfood/chickenPizza.jpg">
+                        <h5>Chicken Pizza</h5>
+                    </div>
+
+                    <div class="col-lg-1 arrowright">
+                        <i class="fa fa-angle-right arrowright" aria-hidden="true"style="font-size:30px;"></i>
+                    </div>
+                        
+            </div> 
         </div>
-
-
-    <div class="row">
-      
-
-
-        <div class="col-lg-4 col-md-3">
-        <img src="img/fastfood/chickenBurger.jpg">
-        <h5>Chicken Burger</h5>
-        </div>
-
-        <div class="col-lg-4 col-md-3">
-        <img  src="img/fastfood/beefBurger.jpg">
-        <h5>Beef Burger</h5>
-        </div>
-
-        <div class="col-lg-4 col-md-4">
-        <img  src="img/fastfood/chickenPizza.jpg">
-        <h5>Chicken Pizza</h5>
-        </div>
-
-        
-    </div>
-
     </div>
 
 <!-- customer reviews part -->
@@ -158,26 +175,29 @@
     
         <div class="row">
             <div class="col-lg-8 col-md-6">
-                <div>
-                    <h3>Our Happy Customers</h3>
-                    <h5>George Richard</h5>
-                    <p>Great food!Menu is awesome, there foods are not 
-                        only great but also in the right price.
+                <div class="happycustomers">
+                    <h3 class="ourhappy">Our Happy Customers</h3>
+                    <h5 class="george"><strong> George Richard</strong></h5>
+                    <p class="great">Great food!Menu is awesome, there foods are not 
+                        only great but
+                    </p>
+                     <p class="also"> also in the right price.
                         I'll highly recommend them:)
                     </p>
                     <div class="customerpics">
-
+                       <i class="fa fa-angle-left" aria-hidden="true" style="font-size:30px;"></i>
                        <img src="img/customers/p1.png" alt=""> 
                        <img src="img/customers/p2.png" alt="">
                        <img src="img/customers/p3.png" alt="">
+                       <i class="fa fa-angle-right" aria-hidden="true"style="font-size:30px;"></i>
                     </div>
                 </div>
              </div>
 
         <div class="col-lg-4 col-md-6">
-                <h3>About Menu</h3>
-                <h6>We are menu a little team of 7 members.</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisici
+                <h3 class="ourhappy">About Menu</h3>
+                <p class="weare">We are menu a little team of 7 members.</p>
+                <p> ipsum dolor sit amet consectetur adipisici
                     ng elit. Voluptate velit magni perspiciatis.</p>         
         </div>
         </div>
@@ -196,7 +216,8 @@
 <!-- footer -->
 <footer class="foots">
     <div class="thatswhat">
-    <h2><img src="img/footerlogos/logo_white.png">MENU</h2>
+    <h2 class="burgerlogo"><img src="img/footerlogos/logo_white.png">    MENU</h2>
+    <br>
     <h4>That's What We Are</h4>
     </div>
 
@@ -221,7 +242,7 @@
     </div>
     </div>
     <div class="restmenu">
-    <p>2016 Menu Restaurant</p>
+    <p class="menurest">2016 Menu Restaurant</p>
     </div>
 </footer>
       
