@@ -1,12 +1,94 @@
-/* STYLES FOR THE NAVBAR */
-.navbars{
-    background-image: url("../img/backgrounds/landing.jpg");
-    background-size: cover;
-    text-align: center;
-    }
+ /* navbar styles */
+header{background-image: url(../img/backgrounds/landing.jpg);
+        }
+.dropdown{padding-top: 2%;
+          }
 
-h2{color: #ffffff;}
+.backgroundtop{color: #ffffff;
+         text-align: center;
+            padding-bottom: 5%;}
+
+
+          /* happyhour strip */
+.strip{height:inherit;
+        width: 100%;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        overflow: hidden;}
 
 
 
-      /* styles for rest of body */
+.breakfast{float: right;
+          margin: 0px;
+          padding: 0px;
+          border: 0px;
+        }
+.cakepics{margin-left: 2%;
+        margin-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 6%;
+        padding-right: 6%;
+        box-shadow: 1px 2px 3px 3px  #dcdcdc; }
+
+.drinksside{margin-right: 5%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        
+        padding-left:6%;
+        box-shadow: 1px 2px 3px 3px  #dcdcdc;
+        }
+
+.jumbotron{background-color: #ffffff;}
+.fastfood{ padding-right: 15%;}
+.drinks{padding-left: 15%;}
+
+/* words and photos part */
+
+/* .drinksside{ padding: 0px;
+             margin: 0px;
+
+} */
+
+
+
+.floatingfood{padding: 15%;
+        }
+
+.junk{float: right;
+        padding: 10%;}
+
+/* customer reviews part */
+.customerreview{width:90%;
+        height: 10%;
+        margin-top: 12%;
+        margin-bottom: 12%;
+        margin-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        box-shadow: 1px 2px 3px 3px  #dcdcdc; }
+
+/* SUBSCRIBE PART!!!!! */
+.subscribe{background-image: url(../img/backgrounds/subscribe.jpg)}
+.subscribetext{padding-top: 10%;
+                color: #ffffff;
+                text-align: center;}
+.subbie{padding-left:35%;
+        padding-bottom: 5%;}
+.btn-primary{background-color: #F15A29;
+                border: #F15A29;}
+
+/* footer */
+footer{background-color: #F15A29;
+        padding-top: 4%;}
+.footers{width: inherit;}
+
+.foots{color: #ffffff;
+        text-align: center;}
+.thatswhat{padding-bottom: 3%;
+        padding-right: 9%;}
+        
+.restmenu{padding-top: 3%;
+        padding-right: 13%;}
