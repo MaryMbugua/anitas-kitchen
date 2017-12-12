@@ -15,15 +15,46 @@
 <body>
    <!-- heading part -->
    <header>
-        <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        
+               
+            <!-- The overlay -->
+        <div id="myNav" class="overlay">
+        
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="#">Contacts</a>
+            <a href="#">Events</a>
+            <a href="#">Menu</a>
+          </div>
+        
+        </div>
+        
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="btn btn-secondary btn-me" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span onclick="openNav()">
+                        <i class="fa fa-bars" aria-hidden="true" style="font-size:75px;"></i>
+                </span>
+                
+                
+        </button>
+        
+
+
+
+
+
+
+
+
+
+                <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                   <button class="dropdown-item" type="button">Contacts</button>
                   <button class="dropdown-item" type="button">Events</button>
                   <button class="dropdown-item" type="button">Menu</button>
-                </div>
+                </div> -->
         </div>
        
     <div class="backgroundtop">
@@ -226,7 +257,7 @@
     <div class="col-lg-4"></div>
 
     <div class="col-lg-1">
-    <img src="img/footerlogos/facebook.png">
+    <img src="img/footerlogos/facebook.png" >
     </div>
 
     <div class="col-lg-1">
